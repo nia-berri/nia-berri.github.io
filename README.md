@@ -1,6 +1,6 @@
 # nia-berri.github.io
 
-Personal data science portfolio 
+Personal data science portfolio.  
 Single-page site built with plain HTML/CSS/JS, written in RStudio & deployed via GitHub Pages.
 
 **Live site:** https://nia-berri.github.io
