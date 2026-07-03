@@ -14,3 +14,5 @@ script.js       Scroll-reveal for project cards
 cv/             Downloadable CV available
 ```
 
+Deploy 
+
