@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Damonia Berrian — Data Analyst &amp; Data Scientist</title>
+<meta name="description" content="Portfolio of Damonia Berrian — data analyst working across R, SQL, and Python, focused on public health and equity-driven analysis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <p class="query-line" aria-hidden="true">
+      <span class="c-comment">-- currently</span><br>
+      <span class="c-kw">SELECT</span> role <span class="c-kw">FROM</span> opportunities <span class="c-kw">WHERE</span> sponsorship <span class="c-op">=</span> <span class="c-lit">TRUE</span>;
+    </p>
+    <h1>Damonia<br>Berrian</h1>
+    <p class="hero-role">Data Analyst — Data Scientist</p>
+    <p class="hero-thesis">I turn public datasets into findings someone can act on — in R, SQL, and Python, with an eye for where the numbers hide inequity.</p>
+    <nav class="hero-nav" aria-label="Section navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><span></span></div>
+</header>
+
+<main>
+
+  <section class="section about" id="about">
+    <div class="section-head">
+      <p class="eyebrow">01 — About</p>
+      <h2>Background</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm a data analyst completing an MS Graduate Certificate in Data Science, with an emphasis on AI and public health, at American University. My background is in adult social care and public-sector operations, which is where the interest in equity-focused analysis started — I kept noticing which populations the data made visible, and which it didn't.</p>
+        <p>My recent work has centred on health insurance coverage risk and US mortality disparities, using the kind of federal survey and surveillance data that shapes real policy. I'm most interested in roles where statistical rigor and a public-health lens meet — data science, applied statistics, or analyst positions with a genuine stake in the outcome.</p>
+      </div>
+      <div class="about-stack">
+        <p class="stack-label">Toolkit</p>
+        <ul class="stack-list">
+          <li>R · Tidyverse · Shiny</li>
+          <li>SQL · SQLite · window functions</li>
+          <li>Python · scikit-learn</li>
+          <li>Ridge / Lasso · Decision Trees</li>
+          <li>KNN · LDA / QDA · Random Forest</li>
+          <li>Cross-validation · Quarto</li>
+          <li>Git · GitHub</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects" id="projects">
+    <div class="section-head">
+      <p class="eyebrow">02 — Projects</p>
+      <h2>Selected work</h2>
+    </div>
+
+    <div class="project-list">
+
+      <article class="project-card">
+        <div class="project-index">01</div>
+        <div class="project-body">
+          <h3>Health Insurance Coverage Risk</h3>
+          <p class="project-desc">Predicts health insurance coverage risk among US working-age adults using 2023 ACS PUMS data, comparing eight classification models and surfacing results through an interactive R Shiny dashboard.</p>
+          <ul class="project-tags">
+            <li>R</li>
+            <li>Shiny</li>
+            <li>ACS PUMS</li>
+            <li>Classification</li>
+          </ul>
+          <a class="project-link" href="https://github.com/nia-berri/Insurance-Coverage" target="_blank" rel="noopener">
+            View repository <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-index">02</div>
+        <div class="project-body">
+          <h3>US Mortality Disparities</h3>
+          <p class="project-desc">SQL analytics project exploring US mortality disparities by race, age, and region using CDC WONDER data, with age-standardised rate comparisons via direct standardisation surfacing a crude-vs-adjusted-rate disparity by race.</p>
+          <ul class="project-tags">
+            <li>SQL</li>
+            <li>CDC WONDER</li>
+            <li>Direct standardisation</li>
+          </ul>
+          <a class="project-link" href="https://github.com/nia-berri/CDC-Mortality" target="_blank" rel="noopener">
+            View repository <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="section contact" id="contact">
+  <div class="section-head">
+    <p class="eyebrow light">03 — Contact</p>
+    <h2>Get in touch</h2>
+  </div>
+  <div class="contact-links">
+    <a href="mailto:your.email@example.com">Email <span aria-hidden="true">↗</span></a>
+    <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+    <a href="https://github.com/nia-berri" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+    <a href="cv/Damonia_Berrian_CV.pdf" target="_blank" rel="noopener">Download CV <span aria-hidden="true">↗</span></a>
+  </div>
+  <p class="footer-note">Built and maintained on GitHub Pages. Last updated 2026.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
